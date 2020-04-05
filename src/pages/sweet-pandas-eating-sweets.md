@@ -1,6 +1,6 @@
 ---
 title: "Pandaer som spier sitt eget godteri"
-date: "2017-08-10"
+date: "2020-04-04"
 ---
 
 Visste du at pandaer har eget godteri? Det ser ut som de er akkurat like glade i godteri som oss!

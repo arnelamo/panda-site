@@ -1,6 +1,6 @@
 ---
 title: "Pandaer og bananer"
-date: "2017-08-21"
+date: "2020-03-21"
 ---
 
 Liker Pandaer bananer? Se denne videoen og så finner du det ut!
