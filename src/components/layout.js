@@ -1,21 +1,9 @@
 import React from "react"
 import { css } from "@emotion/core"
-import { useStaticQuery, Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
+import Navbar from './navbar'
 
 export default ({ children }) => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `
-  )
 
   return (
     <div
@@ -26,34 +14,7 @@ export default ({ children }) => {
         padding-top: ${rhythm(1.5)};
       `}
     >
-      <Link to={`/`}>
-        <h3
-          css={css`
-            margin-bottom: ${rhythm(2)};
-            display: inline-block;
-            font-style: normal;
-          `}
-        >
-          {data.site.siteMetadata.title}
-        </h3>
-      </Link>
-      <Link
-        to={`/about/`}
-        css={css`
-          float: right;
-        `}
-      >
-        Om oss
-      </Link>
-      <Link
-        to={`/my-files/`}
-        css={css`
-          float: right;
-          margin-right: 16px;
-        `}
-      >
-        My Files
-      </Link>
+      <Navbar />
       {children}
     </div>
   )

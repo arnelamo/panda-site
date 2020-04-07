@@ -9,9 +9,11 @@ import SEO from '../components/seo'
 export default ({ data }) => {
   
   const posts = data.allMarkdownRemark
+  const siteInfo = data.site.siteMetadata
+
   return (
     <Layout>
-      <SEO />
+      <SEO title={siteInfo.title} description={siteInfo.description}/>
       <div>
         <h1
           css={css`
@@ -19,7 +21,7 @@ export default ({ data }) => {
             border-bottom: 1px solid;
           `}
         >
-          Pandaer er kule dyr
+          Dyrevideoer
         </h1>
         <div>
         <img
@@ -75,6 +77,13 @@ export const query = graphql`
           }
           excerpt
         }
+      }
+    }
+    site {
+      siteMetadata {
+        title
+        description
+        author
       }
     }
   }

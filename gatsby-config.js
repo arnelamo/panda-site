@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Sigrid og Pappas Pandaside`,
+    title: "Sigrid og Pappas Pandaside",
     description: "A site about Pandas",
     author: "Arne Pedersen"
   },
@@ -23,11 +23,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Sigrid & Pappas dyrevideoer`,
+        short_name: `Sigrid & Pappa`,
         start_url: `/`,
         background_color: `#6b37bf`,
-        theme_color: `#6b37bf`,
+        theme_color: `#37bdbf`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,

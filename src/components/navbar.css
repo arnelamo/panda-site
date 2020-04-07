@@ -1,0 +1,166 @@
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+
+a:hover {
+  border-bottom: 3px solid #37bdbf;
+}
+
+.logo a:hover {
+  color: black;
+}
+
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 36px;
+}
+
+.logo a {
+  font-size: 20px;
+}
+.toggle {
+  font-size: 36px;
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  order: 1;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  order: 2;
+  display: none;
+}
+
+.item.active {
+  display: block;
+}
+
+/* Desktop menu */
+@media all and (min-width: 600px) {
+  .item {
+      display: block;
+      width: auto;
+  }
+  .toggle {
+      display: none;
+  }
+  .logo {
+      order: 0;
+  }
+  .item {
+      order: 1;
+  }
+  .menu li {
+      padding: 15px 10px;
+  }
+  .menu li.button {
+      padding-right: 0;
+  }
+}
+
+
+
+
+/* Elements
+li {
+  padding: 10px 0;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+
+button {
+  font-size: 30px;
+  color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+/* Class */
+/* .navBar {
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  font-weight: bold;
+  margin: 0;
+  transition: height ease 0.5s;
+}
+
+.show-nav {
+  height: 220px;
+  transition: height ease 0.5s;
+} */
+
+/* Media screen size */
+/* @media screen and (min-width: 768px) {
+  button {
+    display: none;
+  }
+
+  .navBar {
+    
+  }
+
+  .nav-links {
+    height: auto;
+    display: flex;
+  }
+
+  li:nth-child(2) {
+    margin-left: 36px;
+  } */
+
+  /* .nav-links{
+    margin-right: auto;
+  } */
+
+  /* .nav-links li:nth-child(n+2) {
+    margin-left: 36px;
+  } */
+
+/* }  */
