@@ -28,6 +28,7 @@ button {
   border: none;
   outline: none;
   font-size: 36px;
+  background: transparent;
 }
 
 .logo a {
