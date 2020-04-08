@@ -47,6 +47,7 @@ export default ({ data }) => {
                 <span
                   css={css`
                     color: #bbb;
+                    font-size: 16px;
                   `}
                 >
                   — {node.frontmatter.date}

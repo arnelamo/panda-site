@@ -10,8 +10,8 @@ const Navbar = () => {
     setToggle(!toggle)
   }
 
-  const itemClasses = toggle ? 'item' : 'item active'
-  const icon = toggle ? <FaAlignRight /> : <FaTimes /> 
+  const itemClasses = toggle ? 'item active' : 'item'
+  const icon = toggle ? <FaTimes /> : <FaAlignRight /> 
 
   return (
     <nav>

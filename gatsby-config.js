@@ -23,10 +23,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sigrid & Pappas dyrevideoer`,
+        name: `Sigrid & Pappas Dyrevideoer`,
         short_name: `Sigrid & Pappa`,
         start_url: `/`,
-        background_color: `#6b37bf`,
+        background_color: `white`,
         theme_color: `#37bdbf`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display

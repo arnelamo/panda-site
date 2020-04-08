@@ -1,5 +1,5 @@
 ---
-title: "Pandaer som spier sitt eget godteri"
+title: "Pandaer som spiser sitt eget godteri"
 date: "2020-04-04"
 ---
 
